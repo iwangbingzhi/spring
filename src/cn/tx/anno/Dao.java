@@ -6,6 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Created by 王炳智 on 2017/8/25.
  */
+//这里是dao层
 @Transactional
 public class Dao {
     public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
